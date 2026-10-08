@@ -9,19 +9,20 @@ import ovh
 
 # Add your Discord Webhook URLs here
 DISCORD_WEBHOOKS = [
-    "https://discord.com/api/webhooks/154....",    #1
-    "https://discord.com/api/webhooks/14605...."     #2
+    "https://discord.com/api/webhooks/YOUR_FIRST_WEBHOOK",
+    "https://discord.com/api/webhooks/YOUR_SECOND_WEBHOOK"
 ]
 
 # OVH API Credentials
-APPLICATION_KEY = "xxxxxxxxxxxxxxxx"
-APPLICATION_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-CONSUMER_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+APPLICATION_KEY = "YOUR_APPLICATION_KEY"
+APPLICATION_SECRET = "YOUR_APPLICATION_SECRET"
+CONSUMER_KEY = "YOUR_CONSUMER_KEY"
 
 # IP Addresses to monitor
 TARGET_IPS = [
-    "xxx.xxx.xxx.xxx",
-    "xxx.xxx.xxx.xxx"
+    "192.0.2.10",
+    "192.0.2.20",
+    "192.0.2.30"
 ]
 
 # Local file to save state (prevents spamming notifications every minute)
